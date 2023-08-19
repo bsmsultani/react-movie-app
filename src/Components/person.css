@@ -1,0 +1,11 @@
+.person-content {
+    overflow-y: scroll;
+    background-color: rgb(39, 49, 60);
+    padding: 20px;
+}
+
+.roles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

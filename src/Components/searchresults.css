@@ -1,0 +1,24 @@
+
+.search-results {
+    /* divide the page into two rows */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    /* make the second row into two columns */
+
+    grid-template-columns: 1fr 1fr;
+
+    /* make the first row only take 15% of the page */
+
+    grid-template-rows: 7% 1fr;
+
+    /* make the first row take up the whole page */
+
+    /* make the second row second column take up 80% of the page */
+
+    grid-template-columns: 15% 85%;
+
+    height: 100vh;
+
+}
+  

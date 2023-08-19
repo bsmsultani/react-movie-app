@@ -1,0 +1,70 @@
+
+.HomePage {
+    /* divide the page into two rows */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    /* make the second row into two columns */
+
+    grid-template-columns: 1fr 1fr;
+
+
+    /* make the first row only take 15% of the page */
+
+    grid-template-rows: 7% 1fr;
+
+    /* make the first row take up the whole page */
+
+
+
+    /* make the second row second column take up 80% of the page */
+
+    grid-template-columns: 15% 85%;
+
+    height: 100vh;
+}
+
+.home-content {
+  /* make it scrollable */
+  overflow-y: scroll;
+  
+
+}
+
+.home-header {
+  overflow-y: scroll;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(39, 49, 60);
+  padding-right: 25%;
+  padding-left: 20%;
+
+  /* random background color */
+
+
+  overflow-y: scroll;
+}
+
+.home-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.home-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
